@@ -12,6 +12,9 @@
     "cipher",
     "encryption",
     "caesar",
-    "security"
+    "security",
+    "encode",
+    "decode",
+    "createCipher"
   ]
 }
