@@ -5,7 +5,7 @@ while true; do
 
   if ! git diff --cached --quiet; then
     git commit -m "auto commit @$(date)"
-    git push origin main
+    git push origin master
   fi
 
 done
