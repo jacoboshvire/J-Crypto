@@ -8,6 +8,8 @@
 
 # Example for Caesar (Shift) Cipher
 
+# ---------------------------------------------------------
+
 # const { encode, decode, createCipher } = require("j-crypto-change");
 
 # encode("hello"); // "khoor"
@@ -19,5 +21,7 @@
 # console.log(cipher.encode("hello")); // "mjqqt"
 
 # cipher.decode("mjqqt"); // "hello"
+
+# ---------------------------------------------------------
 
 #
