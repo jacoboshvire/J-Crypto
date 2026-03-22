@@ -1,0 +1,17 @@
+{
+  "name": "@jacob_ejiro/j-crypto",
+  "version": "1.0.0",
+  "description": "This package was developed to enable programmers to encode and decode messages using a numerical cipher method.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ejiro Jacob Oshevire",
+  "license": "MIT",
+  "keywords": [
+    "cipher",
+    "encryption",
+    "caesar",
+    "security"
+  ]
+}
