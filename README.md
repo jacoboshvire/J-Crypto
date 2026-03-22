@@ -21,8 +21,8 @@ cipher.decode("mjqqt"); // "hello"
 
 # <h1>Playfair</h1>
 
-# const { playfairEncode, playfairDecode } = require('./playfair');
+const { playfairEncode, playfairDecode } = require('./playfair');
 
-# playfairEncode("HELLO", "KEY"); // "DAVVRO" (varies by key)
+playfairEncode("HELLO", "KEY"); // "DAVVRO" (varies by key)
 
-# playfairDecode("DAVVRO", "KEY"); // "HELXLO" (X is padding)
+playfairDecode("DAVVRO", "KEY"); // "HELXLO" (X is padding)
