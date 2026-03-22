@@ -9,12 +9,10 @@
   "author": "Ejiro Jacob Oshevire",
   "license": "MIT",
   "keywords": [
-    "cipher",
-    "encryption",
-    "caesar",
-    "security",
     "encode",
     "decode",
-    "createCipher"
+    "createCipher",
+    "playfairEncode",
+    "playfairDecode"
   ]
 }
