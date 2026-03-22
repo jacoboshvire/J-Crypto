@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# J-Crypto
+## J-Crypto
 
 ---
 
@@ -19,7 +19,7 @@ cipher.decode("mjqqt"); // "hello"
 
 ---
 
-# <h1>Playfair</h1>
+# Playfair
 
 const { playfairEncode, playfairDecode } = require('./playfair');
 
