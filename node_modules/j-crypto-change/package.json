@@ -16,8 +16,5 @@
     "encode",
     "decode",
     "createCipher"
-  ],
-  "dependencies": {
-    "j-crypto-change": "^1.0.2"
-  }
+  ]
 }
