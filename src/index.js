@@ -138,6 +138,8 @@ function playfairDecode(text, key = "KEY") {
     .join("");
 }
 
+// function
+
 module.exports = {
   encode,
   decode,
