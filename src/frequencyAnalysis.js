@@ -25,5 +25,4 @@ function frequencyAnalysis(text) {
   };
 }
 
-module.export = { function frequencyAnalysis(text) {
- };
+module.export = { frequencyAnalysis };
