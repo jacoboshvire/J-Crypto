@@ -27,7 +27,7 @@ playfairEncode("HELLO", "KEY"); // "DAVVRO" (varies by key)
 
 playfairDecode("DAVVRO", "KEY"); // "HELXLO" (X is padding)
 
-#Frequency Analysis
+# Frequency Analysis
 
 const { frequencyAnalysis } = require("j-crypto");
 
