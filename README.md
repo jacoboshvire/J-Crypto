@@ -10,6 +10,8 @@ This package was developed to enable programmers to encode and decode messages u
 
 > > npm i j-crypto-change
 
+---
+
 # Example for Caesar (Shift) Cipher
 
 > > const { encode, decode, createCipher } = require("j-crypto-change");
