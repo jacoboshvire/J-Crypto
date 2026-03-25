@@ -24,3 +24,5 @@ function frequencyAnalysis(text) {
     sorted,
   };
 }
+
+module.export = {};
