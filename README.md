@@ -32,5 +32,5 @@ cipher.decode("mjqqt"); // "hello"
 # Frequency Analysis
 
 > const { frequencyAnalysis } = require("j-crypto");
-
-const result = frequencyAnalysis("khoor zruog");
+>
+> const result = frequencyAnalysis("khoor zruog");
