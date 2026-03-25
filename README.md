@@ -25,8 +25,9 @@ This package was developed to enable programmers to encode and decode messages u
 ## Playfair
 
 > > const { playfairEncode, playfairDecode } = require('./playfair');
-> > playfairEncode("HELLO", "KEY"); // "DAVVRO" (varies by key)
-> > playfairDecode("DAVVRO", "KEY"); // "HELXLO" (X is padding)
+>
+> playfairEncode("HELLO", "KEY"); // "DAVVRO" (varies by key)
+> playfairDecode("DAVVRO", "KEY"); // "HELXLO" (X is padding)
 
 # Frequency Analysis
 
