@@ -1,4 +1,60 @@
 /** @format */
+// Playfair Cipher
+
+function generateKeySquare(key) {
+  const alphabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ"; // no J
+  const seen = new Set();
+  let square = "";
+
+  // Add key characters first
+  for (let char of key.toUpperCase().replace(/J/g, "I")) {
+    if (!seen.has(char) && alphabet.includes(char)) {
+      seen.add(char);
+      square += char;
+    }
+  }
+
+  // Fill remaining letters
+  for (let char of alphabet) {
+    if (!seen.has(char)) {
+      seen.add(char);
+      square += char;
+    }
+  }
+
+  return square; // 25-character string representing 5x5 grid
+}
+
+function getPosition(square, char) {
+  const index = square.indexOf(char);
+  return { row: Math.floor(index / 5), col: index % 5 };
+}
+
+function prepareText(text) {
+  text = text
+    .toUpperCase()
+    .replace(/J/g, "I")
+    .replace(/[^A-Z]/g, "");
+
+  let pairs = [];
+  let i = 0;
+
+  while (i < text.length) {
+    let a = text[i];
+    let b = text[i + 1] || "X";
+
+    if (a === b) {
+      b = "X";
+      i++;
+    } else {
+      i += 2;
+    }
+
+    pairs.push([a, b]);
+  }
+
+  return pairs;
+}
 
 function playfairShift(square, a, b, direction) {
   const posA = getPosition(square, a);
