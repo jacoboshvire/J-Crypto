@@ -31,4 +31,4 @@ This package was developed to enable programmers to encode and decode messages u
 >
 > const result = frequencyAnalysis("khoor zruog");
 >
-> > just testing dfghjsdjnf
+> > just testing dfghjsdjnfsdfsadf
