@@ -8,7 +8,7 @@ while true; do
 <<<<<<< HEAD
     git push origin master
 =======
-    git push origin main
+    # git push origin main
 >>>>>>> main
   fi
 
