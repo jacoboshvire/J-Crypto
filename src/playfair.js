@@ -1,4 +1,5 @@
 /** @format */
+
 // Playfair Cipher
 
 function generateKeySquare(key) {
