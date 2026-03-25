@@ -30,3 +30,8 @@ This package was developed to enable programmers to encode and decode messages u
 > > const { frequencyAnalysis } = require("j-crypto");
 >
 > const result = frequencyAnalysis("khoor zruog");
+<<<<<<< HEAD
+=======
+>
+> > just testing dfghjsdjnfsdfsadfdsf
+>>>>>>> main
