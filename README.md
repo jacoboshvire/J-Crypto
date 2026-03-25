@@ -14,11 +14,11 @@ This package was developed to enable programmers to encode and decode messages u
 
 > > const { encode, decode, createCipher } = require("j-crypto-change");
 >
-> encode("hello"); // "khoor"
-> decode("khoor"); // "hello"
+> encode("hello");
+> decode("khoor");
 > const cipher = createCipher(5);
-> console.log(cipher.encode("hello")); // "mjqqt"
-> cipher.decode("mjqqt"); // "hello"
+> console.log(cipher.encode("hello"));
+> cipher.decode("mjqqt");
 
 ---
 
@@ -26,8 +26,8 @@ This package was developed to enable programmers to encode and decode messages u
 
 > > const { playfairEncode, playfairDecode } = require('./playfair');
 >
-> playfairEncode("HELLO", "KEY"); // "DAVVRO" (varies by key)
-> playfairDecode("DAVVRO", "KEY"); // "HELXLO" (X is padding)
+> playfairEncode("HELLO", "KEY");
+> playfairDecode("DAVVRO", "KEY");
 
 # Frequency Analysis
 
