@@ -8,7 +8,7 @@ This package was developed to enable programmers to encode and decode messages u
 
 ## installing J-Crypto
 
-> npm i j-crypto-change
+> > npm i j-crypto-change
 
 # Example for Caesar (Shift) Cipher
 
