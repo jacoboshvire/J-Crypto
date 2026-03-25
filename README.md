@@ -23,7 +23,7 @@ cipher.decode("mjqqt"); // "hello"
 
 ---
 
-# Playfair
+## Playfair
 
 > const { playfairEncode, playfairDecode } = require('./playfair');
 
