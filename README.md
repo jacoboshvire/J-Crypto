@@ -31,8 +31,12 @@ This package was developed to enable programmers to encode and decode messages u
 > playfairEncode("HELLO", "KEY");
 > playfairDecode("DAVVRO", "KEY");
 
+---
+
 # Frequency Analysis
 
 > > const { frequencyAnalysis } = require("j-crypto");
 >
 > const result = frequencyAnalysis("khoor zruog");
+
+---
