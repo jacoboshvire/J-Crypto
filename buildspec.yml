@@ -1,0 +1,23 @@
+# @format
+
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - npm install
+  pre_build:
+    commands:
+      - echo Running tests...
+  build:
+    commands:
+      - npm test
+  post_build:
+    commands:
+      - echo Build successful!
+artifacts:
+  files:
+    - "**/*"
+  exclude-paths:
+    - node_modules/**
