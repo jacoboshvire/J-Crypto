@@ -15,5 +15,8 @@
     "playfairEncode",
     "playfairDecode",
     "frequencyAnalysis"
-  ]
+  ],
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
